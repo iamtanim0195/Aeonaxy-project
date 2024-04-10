@@ -1,5 +1,5 @@
 import { faPaypal } from "@fortawesome/free-brands-svg-icons";
-import { faBell, faFileInvoice } from "@fortawesome/free-solid-svg-icons";
+import { faBell, faFileInvoice, faTruck } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { FaLaptop } from "react-icons/fa";
 
@@ -19,10 +19,10 @@ const Dashboard = () => {
                 <p className="text-3xl font-bold">Seller tools</p>
                 <p>Sell online easily and grow your business with Seller Tools. Create PayPal buttons, get instant payment notifications, and do much more.</p>
             </div>
-            <div className="px-28 ">
+            <div className=" p-5 sm:pl-28 ">
                 <p className="text-2xl ">Seeling online</p>
                 <p>Grow your business by making it easier for your customers to pay you.</p>
-                <div className="my-3 max-w-3xl">
+                <div className="my-3  max-w-3xl">
                     <div className="rounded-md p-3 shadow sm:flex justify-center items-center gap-3">
                         <p className="text-xl mx-auto rounded-full w-10 p-3 h-10 flex items-center justify-center bg-stone-300"><FontAwesomeIcon icon={faPaypal} style={{ color: "#74C0FC", }} />
                         </p>
@@ -57,7 +57,7 @@ const Dashboard = () => {
                     </div>
                 </div>
             </div>
-            <div className="px-28 max-w-3xl">
+            <div className="p-5 sm:pl-28 max-w-3xl">
                 <p className="text-2xl ">Getting paid</p>
                 <p> Choose from various payment tools to attract your customers..</p>
                 <div className="rounded-md my-3 p-3 shadow sm:flex justify-center items-center gap-3">
@@ -70,6 +70,20 @@ const Dashboard = () => {
                             Control how you sell online by turning on express checkouts and bringing customers back to your website                            </p>
                     </div>
                     <p className="text-blue-500">Update</p>
+                </div>
+            </div>
+            <div className="p-5 sm:pl-28 max-w-3xl">
+                <p className="text-2xl ">More selling tools </p>
+                <p>Check out the other tools that we have for you to help you sell online.</p>
+                <div className="rounded-md my-3 p-3 shadow sm:flex  items-center gap-3">
+                    <p className="text-xl  rounded-full w-10 p-3  h-10 flex items-center justify-center bg-stone-300">
+                    <FontAwesomeIcon icon={faTruck} style={{color: "#74C0FC",}} />                    </p>
+                    <div>
+                        <p className="font-bold">Shipping preferences</p>
+                        <p>
+                            Create your shipping labels for hassle-free returns.                        </p>
+                    </div>
+                    <p className="text-blue-500">Create</p>
                 </div>
             </div>
         </div>
